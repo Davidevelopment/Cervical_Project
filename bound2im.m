@@ -27,7 +27,7 @@ end
 
 % Make sure the coordinates are integers.
 x = round(b(:, 1)); 
-y = round(b(:, 2));
+y = round(b(:, 2));      
 
 % Set up the default size parameters. 
 x = x - min(x) + 1;
